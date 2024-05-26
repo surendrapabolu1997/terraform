@@ -1,5 +1,5 @@
 resource "aws_instance" "demo-vm" {
-  ami           = ami-0bb84b8ffd87024d8
+  ami           = ami-08564adb5a86605e7
   instance_type = "t3.micro"
 
   tags = {
